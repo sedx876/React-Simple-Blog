@@ -1,10 +1,11 @@
 import React from "react";
 import './styles/App.css';
+import CreateNewPost from './components/CreateNewPost'
 
 const App = ( ) => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <CreateNewPost />
     </div>
   );
 };
